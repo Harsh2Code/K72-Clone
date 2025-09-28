@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: font1;
+  src: url(../Font/Lausanne-300.woff2 );
+  font-display: swap;
+}
+@font-face {
+  font-family: font2;
+  src: url(../Font/Lausanne-500.woff2 );
+  font-display: swap;
+}
+
+body {
+  background-color: #111;
+  color: white;
+}
+
+.movelink {
+  opacity: 0;
+  display: inline-flex;
+  transition: all ease 0.2s;
+  animation-name: moveAnimation;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.link:hover .movelink {
+  opacity: 1;
+}
+
+@keyframes moveAnimation {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
