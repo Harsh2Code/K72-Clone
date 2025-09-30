@@ -1,5 +1,2 @@
-- [x] Fix GSAP animation in FullScreenNav.jsx to properly show/hide the full screen nav on navOpen state change
-- [x] Fix stairing background colors to bg-gray-800 for visibility on black background
-- [x] Add CSS for .animate-marquee animation for continuous scroll left effect
-- [x] Reduce h1 text size from lg:text-[8vw] to text-5xl to fix enlarged text issue
-- [x] Restore missing stairParent div with stairing elements to enable stair animation
+- [x] Change w-screen to w-full in Projects.jsx
+- [x] Add overflow-x-hidden to body in index.css

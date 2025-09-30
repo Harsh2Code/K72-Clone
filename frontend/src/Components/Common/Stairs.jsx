@@ -17,13 +17,13 @@ const Stairs = (props) => {
         tl.from('.stair', {
             height: 0,
             stagger: {
-                amount: -0.2
+                amount: 0.2
             }
         })
         tl.to('.stair', {
             y: '100%',
             stagger: {
-                amount: -0.25
+                amount: 0.25
             }
         })
         tl.to(stairParentRef.current, {

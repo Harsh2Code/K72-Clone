@@ -7,7 +7,9 @@ import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import FullScreenNav from './Components/Navigation/FullScreenNav'
 import NavContext from './Context/NavContext'
-import Projects from './Components/Projects/Projects'
+import Projects from './Pages/Projects'
+import ProjectsAnimationTest from './Pages/ProjectsAnimationTest'
+import Agence from './Pages/Agence'
 
 
 function App() {
@@ -21,6 +23,8 @@ function App() {
         <Routes >
           <Route path='/' element={<Home />} />
           <Route path='/projects' element={<Projects />} />
+          <Route path='/agence' element={<Agence />} />
+          <Route path='/projects-test' element={<ProjectsAnimationTest />} />
         </Routes >
         <FullScreenNav />
       </div>
