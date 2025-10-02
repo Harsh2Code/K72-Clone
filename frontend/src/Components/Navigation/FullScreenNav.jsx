@@ -76,7 +76,7 @@ const FullScreenNav = () => {
         <div className="flex-1 flex flex-col justify-center">
           {/* Projets Section */}
           <div className="link relative flex flex-col items-center border-t border-gray-100 pt-4">
-            <Link to="/Projects" reloadDocument>
+            <Link to="/projects">
               <h1 className="lg:lg:text-7xl font-[font2] leading-none uppercase text-white text-center">Projets</h1>
               <div className="absolute inset-0 flex overflow-hidden">
 
@@ -96,7 +96,7 @@ const FullScreenNav = () => {
 
           {/* Agence Section */}
           <div className="link relative flex flex-col items-center border-t border-gray-100 pt-4">
-            <Link to="/agence" reloadDocument>
+            <Link to="/agence">
               <h1 className="lg:lg:text-7xl font-[font2] leading-none uppercase text-white text-center">Agence</h1>
               <div className=" absolute inset-0 flex overflow-hidden ">
                 <div className="flex movelink  items-center whitespace-nowrap animate-marquee bg-[#d4fd50]">
@@ -115,7 +115,7 @@ const FullScreenNav = () => {
 
           {/* Contact Section */}
           <div className="link relative flex flex-col items-center border-t border-gray-100 pt-4">
-            <Link to="/" reloadDocument>
+            <Link to="/">
               <h1 className="lg:lg:text-7xl font-[font2] leading-none uppercase text-white text-center">Contact</h1>
               <div className=" absolute inset-0 flex overflow-hidden">
                 <div className="flex movelink  items-center whitespace-nowrap animate-marquee bg-[#d3fd50]">
@@ -134,7 +134,7 @@ const FullScreenNav = () => {
 
           {/* Blogue Section */}
           <div className="link relative flex flex-col items-center border-y-1 border-gray-100 pt-4">
-            <Link to="/" reloadDocument>
+            <Link to="/">
               <h1 className="lg:lg:text-7xl font-[font2] leading-none uppercase text-white text-center">Blogue</h1>
               <div className="absolute inset-0 flex overflow-hidden">
                 <div className="flex movelink items-center whitespace-nowrap animate-marquee bg-[#d3fd50]">
@@ -152,7 +152,7 @@ const FullScreenNav = () => {
           </div>
         </div>
       </div>
-    </div >
+    </div>
   );
 };
 
