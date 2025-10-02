@@ -1,5 +1,5 @@
 import { useGSAP } from '@gsap/react'
-import ProjectCard from '../components/projects/ProjectCard'
+import ProjectCard from '../Components/Projects/ProjectCard'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/all'
 
