@@ -1,7 +1,5 @@
 import React, { useState } from 'react'
-import { createContext } from 'react'
-
-export const NavbarContext = createContext();
+import { NavbarContext } from './NavbarContext'
 
 const NavContext = ({children}) => {
   const [navOpen, setnavOpen] = useState(false)

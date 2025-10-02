@@ -81,7 +81,7 @@ const Projects = () => {
     gsap.from('.hero', {
       height: '100px',
       stagger: {
-        amount: 1
+        amount: 1.2
       },
       scrollTrigger: {
         trigger: '.lol',

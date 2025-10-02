@@ -13,9 +13,6 @@ const Agence = () => {
   const projectsRef = useRef(null)
   const creationRef = useRef(null)
   const cultureRef = useRef(null)
-  const memberTab = useRef(null)
-  const bgDivRef = useRef(null)
-  const changeClr = useRef(null)
   const personImage = useRef(null)
 
   const personImages = [

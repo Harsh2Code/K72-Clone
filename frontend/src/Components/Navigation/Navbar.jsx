@@ -1,5 +1,5 @@
 import React, { useContext, useRef } from 'react'
-import { NavbarContext } from '../../Context/NavContext';
+import { NavbarContext } from '../../Context/NavbarContext';
 import { Link, useLocation } from 'react-router-dom';
 
 function Navbar() {
@@ -7,7 +7,7 @@ function Navbar() {
     const navGreenRef = useRef(null);
     const bgChange = useRef(null)
     const bgChange2 = useRef(null)
-    const [navOpen, setNavOpen] = useContext(NavbarContext)
+    const [, setNavOpen] = useContext(NavbarContext)
 
     // Determine background color based on current path
     const bgColorClass = location.pathname === '/projects' ? 'bg-white' : 'transparent';

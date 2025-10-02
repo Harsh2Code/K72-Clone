@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
-import { NavbarContext } from '../../Context/NavContext';
+import { NavbarContext } from '../../Context/NavbarContext';
 import { Link } from 'react-router-dom';
 
 const FullScreenNav = () => {
