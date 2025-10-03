@@ -13,6 +13,8 @@ const Video = ({ isSmall = false }) => {
         loop
         muted
         playsInline
+
+        crossOrigin="anonymous"
       >
         <source src='/69496b2d.mp4' type='video/mp4' />
         Your browser does not support the video tag.

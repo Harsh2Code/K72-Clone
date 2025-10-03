@@ -1,2 +1,5 @@
 - [x] Change w-screen to w-full in Projects.jsx
 - [x] Add overflow-x-hidden to body in index.css
+- [x] Add server: { cors: true } to vite.config.js
+- [x] Add crossorigin="anonymous" to img tags in ProjectCard.jsx, Agence.jsx, FullScreenNav.jsx
+- [x] Add crossorigin="anonymous" to video in Video.jsx
