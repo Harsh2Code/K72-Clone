@@ -4,3 +4,4 @@
 - [x] Remove crossorigin="anonymous" from img and video tags to restore image visibility
 - [x] Add server.js for SPA routing and CORS
 - [x] Update package.json with start script
+- [x] Add cors dependency to package.json
