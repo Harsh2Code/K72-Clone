@@ -1,5 +1,6 @@
 - [x] Change w-screen to w-full in Projects.jsx
 - [x] Add overflow-x-hidden to body in index.css
 - [x] Add server: { cors: true } to vite.config.js
-- [x] Add crossorigin="anonymous" to img tags in ProjectCard.jsx, Agence.jsx, FullScreenNav.jsx
-- [x] Add crossorigin="anonymous" to video in Video.jsx
+- [x] Remove crossorigin="anonymous" from img and video tags to restore image visibility
+- [x] Add server.js for SPA routing and CORS
+- [x] Update package.json with start script
