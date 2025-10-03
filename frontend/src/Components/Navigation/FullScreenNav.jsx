@@ -79,16 +79,15 @@ const FullScreenNav = () => {
             <Link to="/projects">
               <h1 className="lg:lg:text-7xl font-[font2] leading-none uppercase text-white text-center">Projets</h1>
               <div className="absolute inset-0 flex overflow-hidden">
-
                 <div className="flex items-center movelink  whitespace-nowrap  animate-marquee bg-[#d4fd50]">
                   <h2 className="font-[font2] lg:text-7xl leading-none uppercase mx-4 text-black">POUR TOIT VOIR</h2>
-                  <img className="h-[5vw] shrink-0 w-40 rounded-full object-cover mx-4" src="https://k72.ca/images/caseStudies/PJC/Thumbnails/PJC_SiteK72_Thumbnail_640x290.jpg?w=640&h=290&s=ac50a70feaaa2601b3aacad544c6045b" alt="" />
+                  <img className="h-[5vw] shrink-0 w-40 rounded-full object-cover mx-4" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0iI2NjYyIvPjwvc3ZnPg==" alt="" />
                   <h2 className="font-[font2] lg:text-7xl leading-none uppercase mx-4 text-black">POUR TOIT VOIR</h2>
-                  <img className="h-[5vw] shrink-0 w-40 rounded-full object-cover mx-4" src="https://k72.ca/images/caseStudies/WIDESCAPE/WS---K72.ca---MenuThumbnail.jpg?w=640&h=290&s=c3eae0b44f029a1f39a666ffa3c2ca99" alt="" />
+                  <img className="h-[5vw] shrink-0 w-40 rounded-full object-cover mx-4" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0iI2NjYyIvPjwvc3ZnPg==" alt="" />
                   <h2 className="font-[font2] lg:text-7xl leading-none uppercase mx-4 text-black">POUR TOIT VOIR</h2>
-                  <img className="h-[5vw] shrink-0 w-40 rounded-full object-cover mx-4" src="https://k72.ca/images/caseStudies/PJC/Thumbnails/PJC_SiteK72_Thumbnail_640x290.jpg?w=640&h=290&s=ac50a70feaaa2601b3aacad544c6045b" alt="" />
+                  <img className="h-[5vw] shrink-0 w-40 rounded-full object-cover mx-4" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0iI2NjYyIvPjwvc3ZnPg==" alt="" />
                   <h2 className="font-[font2] lg:text-7xl leading-none uppercase mx-4 text-black">POUR TOIT VOIR</h2>
-                  <img className="h-[5vw] shrink-0 w-40 rounded-full object-cover mx-4" src="https://k72.ca/images/caseStudies/WIDESCAPE/WS---K72.ca---MenuThumbnail.jpg?w=640&h=290&s=c3eae0b44f029a1f39a666ffa3c2ca99" alt="" />
+                  <img className="h-[5vw] shrink-0 w-40 rounded-full object-cover mx-4" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0iI2NjYyIvPjwvc3ZnPg==" alt="" />
                 </div>
               </div>
             </Link>
@@ -101,13 +100,13 @@ const FullScreenNav = () => {
               <div className=" absolute inset-0 flex overflow-hidden ">
                 <div className="flex movelink  items-center whitespace-nowrap animate-marquee bg-[#d4fd50]">
                   <h2 className="font-[font2] lg:text-7xl leading-none uppercase mx-4 text-black">POUR TOIT SAVOIR</h2>
-                  <img className="h-[5vw] shrink-0 w-40 rounded-full mx-4" src="https://k72.ca/images/teamMembers/blank_copie_2.jpg?w=640&h=290&s=b6f8d41383b2ee7821dcaec8b68295ec" alt="" />
+                  <img className="h-[5vw] shrink-0 w-40 rounded-full mx-4" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0iI2NjYyIvPjwvc3ZnPg==" alt="" />
                   <h2 className="font-[font2] lg:text-7xl leading-none uppercase mx-4 text-black">POUR TOIT SAVOIR</h2>
-                  <img className="h-[5vw] shrink-0 w-40 rounded-full mx-4" src="https://k72.ca/images/teamMembers/MEGGIE_640X290_2.jpg?w=640&h=290&s=547adc6f80885f8627de0683f7e03362" alt="" />
+                  <img className="h-[5vw] shrink-0 w-40 rounded-full mx-4" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0iI2NjYyIvPjwvc3ZnPg==" alt="" />
                   <h2 className="font-[font2] lg:text-7xl leading-none uppercase mx-4 text-black">POUR TOIT SAVOIR</h2>
-                  <img className="h-[5vw] shrink-0 w-40 rounded-full mx-4" src="https://k72.ca/images/teamMembers/blank_copie_2.jpg?w=640&h=290&s=b6f8d41383b2ee7821dcaec8b68295ec" alt="" />
+                  <img className="h-[5vw] shrink-0 w-40 rounded-full mx-4" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0iI2NjYyIvPjwvc3ZnPg==" alt="" />
                   <h2 className="font-[font2] lg:text-7xl leading-none uppercase mx-4 text-black">POUR TOIT SAVOIR</h2>
-                  <img className="h-[5vw] shrink-0 w-40 rounded-full mx-4" src="https://k72.ca/images/teamMembers/MEGGIE_640X290_2.jpg?w=640&h=290&s=547adc6f80885f8627de0683f7e03362" alt="" />
+                  <img className="h-[5vw] shrink-0 w-40 rounded-full mx-4" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0iI2NjYyIvPjwvc3ZnPg==" alt="" />
                 </div>
               </div>
             </Link>
@@ -139,13 +138,13 @@ const FullScreenNav = () => {
               <div className="absolute inset-0 flex overflow-hidden">
                 <div className="flex movelink items-center whitespace-nowrap animate-marquee bg-[#d3fd50]">
                   <h2 className="font-[font2] lg:text-7xl leading-none uppercase mx-4 text-black">LIRE LES ARTICLES</h2>
-                  <img className="h-[5vw] shrink w-40 rounded-full mx-4" src="https://k72.ca/uploads/blog/blogImg/ier.com-16107673482102220.gif" alt="" />
+                  <img className="h-[5vw] shrink w-40 rounded-full mx-4" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0iI2NjYyIvPjwvc3ZnPg==" alt="" />
                   <h2 className="font-[font2] lg:text-7xl leading-none uppercase mx-4 text-black">LIRE LES ARTICLES</h2>
-                  <img className="h-[5vw] shrink-0 w-40 rounded-full mx-4" src="https://k72.ca/images/blog/blogImg/50ff59cc0550df5b36543807a58db98c52e01a22274a317eafbfa5266941579b.png?w=640&h=290&s=4f8134f04fe18db7382b99cec63c95f5" alt="" />
+                  <img className="h-[5vw] shrink-0 w-40 rounded-full mx-4" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0iI2NjYyIvPjwvc3ZnPg==" alt="" />
                   <h2 className="font-[font2] lg:text-7xl leading-none uppercase mx-4 text-black">LIRE LES ARTICLES</h2>
-                  <img className="h-[5vw] shrink w-40 rounded-full mx-4" src="https://k72.ca/uploads/blog/blogImg/ier.com-16107673482102220.gif" alt="" />
+                  <img className="h-[5vw] shrink w-40 rounded-full mx-4" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0iI2NjYyIvPjwvc3ZnPg==" alt="" />
                   <h2 className="font-[font2] lg:text-7xl leading-none uppercase mx-4 text-black">LIRE LES ARTICLES</h2>
-                  <img className="h-[5vw] shrink-0 w-40 rounded-full mx-4" src="https://k72.ca/images/blog/blogImg/50ff59cc0550df5b36543807a58db98c52e01a22274a317eafbfa5266941579b.png?w=640&h=290&s=4f8134f04fe18db7382b99cec63c95f5" alt="" />
+                  <img className="h-[5vw] shrink-0 w-40 rounded-full mx-4" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0iI2NjYyIvPjwvc3ZnPg==" alt="" />
                 </div>
               </div>
             </Link>
