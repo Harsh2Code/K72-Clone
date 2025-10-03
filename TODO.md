@@ -5,3 +5,4 @@
 - [x] Add server.js for SPA routing and CORS
 - [x] Update package.json with start script
 - [x] Add cors dependency to package.json
+- [x] Fix server.js route pattern for Express 5 compatibility
