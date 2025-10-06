@@ -1,6 +1,23 @@
 import express from 'express';
 import path from 'path';
 import cors from 'cors';
+
+const allowedOrigins = [
+  'http://localhost:3000',
+  'https://k72-clone-903x.onrender.com',
+  // add other allowed origins here
+];
+
+const corsOptions = {
+  origin: function (origin, callback) {
+    if (!origin || allowedOrigins.indexOf(origin) !== -1) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  }
+};
+
 import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
